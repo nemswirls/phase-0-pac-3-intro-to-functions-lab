@@ -1,3 +1,5 @@
+const { string } = require('../index.js');
+
 require ( './root.js' );
 
 
@@ -51,4 +53,5 @@ describe('sayHiToHeadphonedRoommate(string)', function() {
       "I would love to!"
     );
   });
-})
+});console.log(string);
+
